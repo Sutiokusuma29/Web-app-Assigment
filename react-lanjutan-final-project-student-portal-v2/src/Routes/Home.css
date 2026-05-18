@@ -1,0 +1,19 @@
+.button {
+    background-color: #4c82af; /* Hijau */
+    border: none; /* Menghilangkan border default */
+    color: rgb(0, 0, 0); /* Warna teks */
+    padding: 15px 32px; /* Jarak dalam tombol */
+    text-align: center; /* Teks berada di tengah */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    display: inline-block; /* Mengatur agar elemen inline */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Jarak antar tombol */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    border-radius: 4px; /* Sudut membulat */
+    transition: background-color 0.3s, transform 0.2s; /* Transisi halus */
+}
+
+.button:hover {
+    background-color: #09b809; /* Warna saat hover */
+    transform: scale(1.05); /* Sedikit membesar saat hover */
+}

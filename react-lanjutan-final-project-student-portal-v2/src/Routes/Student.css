@@ -1,0 +1,56 @@
+div {
+    padding: 20px;
+}
+
+/* Gaya untuk dropdown filter */
+select {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Gaya untuk tabel */
+#table-student {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Gaya untuk header tabel */
+#table-student thead {
+    background-color: #4CAF50; /* Hijau */
+    color: white;
+}
+
+#table-student th, #table-student td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Gaya untuk baris tabel saat hover */
+#table-student tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Gaya untuk tombol delete */
+button {
+    background-color: #e74c3c; /* Merah */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b; /* Merah lebih gelap saat hover */
+}
+
+/* Gaya untuk loading text */
+p {
+    font-size: 20px;
+    font-weight: bold;
+}

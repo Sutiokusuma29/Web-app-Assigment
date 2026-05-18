@@ -1,0 +1,52 @@
+div {
+    padding: 20px;
+}
+
+/* Gaya untuk formulir */
+#form-student {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 8px; /* Sudut membulat */
+    padding: 20px;
+    background-color: #f9f9f9; /* Warna latar belakang */
+}
+
+/* Gaya untuk label */
+label {
+    margin-bottom: 5px; /* Jarak antara label dan input */
+    font-weight: bold; /* Menebalkan teks label */
+}
+
+/* Gaya untuk input dan select */
+input, select {
+    padding: 10px;
+    margin-bottom: 15px; /* Jarak antara input */
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 4px; /* Sudut membulat */
+    font-size: 16px; /* Ukuran font */
+}
+
+/* Gaya untuk tombol */
+button {
+    background-color: #4CAF50; /* Hijau */
+    color: white; /* Warna teks */
+    border: none; /* Menghilangkan border default */
+    padding: 10px 15px; /* Jarak dalam tombol */
+    border-radius: 4px; /* Sudut membulat */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    transition: background-color 0.3s; /* Transisi halus */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna lebih gelap saat hover */
+}
+
+/* Gaya untuk loading text */
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; /* Memusatkan teks */
+}

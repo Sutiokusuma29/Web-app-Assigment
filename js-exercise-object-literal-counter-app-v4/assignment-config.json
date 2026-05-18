@@ -1,0 +1,13 @@
+{
+	"name": "js-exercise-object-literal-counter-app",
+	"course": "Programming Fundamentals with Javascript",
+	"title": "Exercise - Counter App (Object Literal)",
+	"order": 9999,
+	"topics": [],
+	"image": "nodejs-basic",
+	"command": "npm run test",
+	"totalTestCase": 3,
+	"metadata": {
+		"type": "exercise"
+	}
+}

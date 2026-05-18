@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #333; /* Warna latar belakang navbar */
+    padding: 15px; /* Jarak dalam navbar */
+    display: flex; /* Mengatur tampilan navbar menjadi flex */
+    justify-content: space-around; /* Mengatur jarak antar elemen */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+}
+
+.navbar h1 {
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.navbar a {
+    color: white; /* Warna teks */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    padding: 10px 15px; /* Jarak dalam tautan */
+    border-radius: 5px; /* Sudut membulat */
+    transition: background-color 0.3s; /* Transisi untuk efek hover */
+}

@@ -1,0 +1,31 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering horizontally */
+    justify-content: center; /* Centering vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Darker red text */
+    text-align: center; /* Center text */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.not-found-container h1 {
+    font-size: 48px; /* Large font size for the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.not-found-container button {
+    background-color: #721c24; /* Dark red button background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor change on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.not-found-container button:hover {
+    background-color: #a71c24; /* Darker red on hover */
+}

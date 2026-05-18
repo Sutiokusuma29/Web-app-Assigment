@@ -1,0 +1,13 @@
+{
+	"name": "js-exercise-object-literal-stock-opname",
+	"course": "Programming Fundamentals with Javascript",
+	"title": "Exercise - Stock Opname",
+	"order": 9999,
+	"topics": [],
+	"image": "nodejs-basic",
+	"command": "npm run test",
+	"totalTestCase": 2,
+	"metadata": {
+		"type": "exercise"
+	}
+}
